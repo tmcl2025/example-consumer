@@ -54,7 +54,7 @@ PACT_BROKER_TOKEN=<<whatever-the-token-you-found>>
 pact-broker cli will automatically pick up `PACT_BROKER_BASE_URL` and `PACT_BROKER_TOKEN` varibles and pass it to cli parameters --broker-base-url and --broker-token accordingly. Once you have the environment variables setup, you can publish the contract using the following npm command
 
 ```
-npm run publish_contracts
+npm run publish_pacts
 ```
 
 Keep an eye to the links in the command output after the contracts were published successfully. You will need it shortly to view the contract in the public tenant.
